@@ -1,38 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Product Catalog App
 
-## Getting Started
+Welcome to the Next.js Product Catalog App assignment! This project aims to assess your abilities in developing a Next.js application that fetches data from an API, utilizes React hooks, writes clean TypeScript code, and integrates Material-UI for UI components.
 
-First, run the development server:
+## Assignment Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+In this assignment, you will create a product catalog application that fetches product data from a dummy API and displays it using Material-UI components. The application should have the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Product Catalog Page:** Implement a page that displays a list of products fetched from the dummy API. Each product card should show the product name, price, image, and description.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Product Detail Page:** Implement a page that shows detailed information about a selected product. Clicking on a product card on the catalog page should navigate to this detail page. Display the product name, price, image, and description on this page.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Requirements
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To successfully complete the assignment, you should fulfill the following requirements:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+- Fetch the product data from the provided dummy API endpoints:
+    - Product catalog: `https://dummyapi.online/api/products`
+    - Product detail: `https://dummyapi.online/api/products/{product_id}`
 
-To learn more about Next.js, take a look at the following resources:
+- Utilize React hooks, to manage the application state and handle data fetching.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Write clean and modular code using TypeScript and proper separation of concerns.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Implement error handling in case the API requests fail or return error responses.
 
-## Deploy on Vercel
+- Utilize Material-UI components for building the UI elements, such as product lists, product cards, and page layouts. Implement basic styling for the pages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Set up a GitHub repository to host your project and use Git for version control.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Bonus (optional):
+- Add pagination or infinite scrolling to the product catalog page.
+- Implement filtering or sorting options for the product list.
+- Enhance the UI with responsive design and transitions/animations.
+- Implement unit tests for at least one component or function of your choice using a testing library like Jest or React Testing Library.
+
+## Submission
+
+Once you have completed the assignment, please provide the following:
+
+- Share the link to your GitHub repository.
+
+## Questions or Issues
+
+If you have any questions or encounter any issues during the assignment, feel free to reach out to us.
+
+We wish you the best of luck with the assignment! We look forward to reviewing your work.
+
+
