@@ -29,6 +29,10 @@ To successfully complete the assignment, you should fulfill the following requir
 
 - Set up a GitHub repository to host your project and use Git for version control.
 
+## Backend requirements (optional):
+- Create REST APIs for Product catalog and Product detail instead of using the dummy API endpoints (you can copy the data from the dummy API and store it in JSON).
+- Handle errors and edge cases, such as empty product lists or invalid product IDs.
+
 ## Bonus (optional):
 - Add pagination or infinite scrolling to the product catalog page.
 - Implement filtering or sorting options for the product list.
